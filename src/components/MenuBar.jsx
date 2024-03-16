@@ -6,7 +6,7 @@ import { Layout, Menu, Image } from 'antd'
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const MenuBar = ({ value, setTitle }) => {
+const MenuBar = ({ isMobileOrDesktop, value, setTitle, onChange }) => {
 
     const { Sider } = Layout;
     const navigate = useNavigate();
@@ -22,7 +22,13 @@ const MenuBar = ({ value, setTitle }) => {
     const [selectedKey, setSelectedKey] = useState('/matching')
 
     return (
-        <Sider trigger={null} collapsible collapsed={value} collapsedWidth={90} width={220} className='menuSidebar'
+        <Sider 
+            trigger={null} 
+            collapsible={isMobileOrDesktop}
+            collapsed={value && isMobileOrDesktop} 
+            collapsedWidth={isMobileOrDesktop? 90 : undefined} 
+            width={220} 
+            className='menuSidebar'
             style={{
                 position: 'fixed',
                 top: '0',
@@ -30,6 +36,7 @@ const MenuBar = ({ value, setTitle }) => {
                 height: '100%',
                 overflowY: 'auto',
                 zIndex: '100',
+                width: '180px',
             }}>
             <Menu
                 theme="light"
@@ -40,16 +47,17 @@ const MenuBar = ({ value, setTitle }) => {
                     backgroundColor: '#d5def5',
                     height: '100%',
                     overflowY: 'auto',
+                    width: !isMobileOrDesktop ? '190px' : undefined,
+                    marginLeft: !isMobileOrDesktop ? '-10px' : undefined,
+                    border: !isMobileOrDesktop ? 'none' : undefined,
+                    fontWeight: 'bold'
                 }}
                 onClick={async ({ key }) => {
                     if (key === '/logout') {
-                        const user_id = (await supabase.auth.getUser()).data.user.id;
-                        recordUserLog(user_id, "logout");
-                        await supabase.auth.signOut();
-                        localStorage.removeItem('selectedKey');
                         navigate('/');
                         return;
                     } else {
+                        onChange()
                         setSelectedKey(key);
                         localStorage.setItem('selectedKey', key);
                         setTitle(key)

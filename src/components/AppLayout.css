@@ -3,3 +3,9 @@
     color: white !important;
     font-weight: bold;
 }
+
+.menuButton {
+    background-color: white !important;
+    border: none !important;
+    color: black !important;
+}
