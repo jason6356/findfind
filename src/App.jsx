@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import './App.css'
 import Register from './pages/auth/Register';
@@ -9,9 +8,12 @@ import Matching from './pages/matching/Matching';
 import Pitching from './pages/pitching/Pitching';
 import Profile from './pages/profile/Profile';
 import AppLayout from './components/AppLayout';
+import QuestionAllocation from './pages/matching/QuestionAllocation';
+import 'raf/polyfill';
+import QuestionAnswer from "./pages/matching/QuestionAnswer";
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -21,6 +23,8 @@ function App() {
           <Route element={<AppLayout/>}>
             <Route path="/conversation" element={<Conversation />} />
             <Route path="/matching" element={<Matching />} />
+            <Route path="/matching/answer-question" element={<QuestionAnswer />} />
+            <Route path="/matching/question-allocation" element={<QuestionAllocation/>} />
             <Route path="/pitching" element={<Pitching />} />
             <Route path="/profile" element={<Profile />} />
           </Route>

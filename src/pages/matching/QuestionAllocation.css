@@ -1,0 +1,8 @@
+.matching-button button {
+    color: black !important;
+    font-weight: 600 !important;
+    background-color: #d5def5 !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1) !important;
+
+    color: #982bc4;
+}

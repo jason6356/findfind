@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "statement": "My company is a pet-friendly workplace",
+        "question": "Do you prefer to work in a pet-friendly workplace?",
+        "answer": "Yes"
+    },
+    {
+        "id": 2,
+        "statement": "My company has a flexible work schedule",
+        "question": "Do you prefer to work in a company with a flexible work schedule?",
+        "answer": "Yes"
+    },
+    {
+        "id": 3,
+        "statement": "My company allows remote work",
+        "question": "Do you prefer to work in a company that allows remote work?",
+        "answer": "No"
+    },
+    {
+        "id": 4,
+        "statement": "My company has many team-building activities",
+        "question": "Do you prefer to work in a company that has many team-building activities?",
+        "answer": "Yes"
+    },
+    {
+        "id": 5,
+        "statement": "My company prefer to hire young people",
+        "question": "Do you prefer to work in a company that prefer to hire young people?",
+        "answer": "No"
+    },
+    {
+        "id": 6,
+        "statement": "My company has a dress code",
+        "question": "Do you prefer to work in a company that has a dress code?",
+        "answer": "No"
+    },
+    {
+        "id": 7,
+        "statement": "My company needs employees to work overseas",
+        "question": "Do you prefer to work in a company that needs employees to work overseas?",
+        "answer": "Yes"
+    },
+    {
+        "id": 8,
+        "statement": "My company sometimes requires overtime work",
+        "question": "Do you prefer to work in a company that sometimes requires overtime work?",
+        "answer": "Yes"
+    },
+    {
+        "id": 9,
+        "statement": "My company prefer working in a team",
+        "question": "Do you prefer to work in a company that prefer working in a team?",
+        "answer": "No"
+    },
+    {
+        "id": 10,
+        "statement": "My company has weekly meetings",
+        "question": "Do you prefer to work in a company that has weekly meetings?",
+        "answer": "No"
+    },
+    {
+        "id": 11,
+        "statement": "My company has high competition between employees",
+        "question": "Do you prefer to work in a company that has high competition between employees?",
+        "answer": "Yes"
+    },
+    {
+        "id": 12,
+        "statement": "My company focuses on individual performance",
+        "question": "Do you prefer to work in a company that focuses on individual performance?",
+        "answer": "Yes"
+    }
+]

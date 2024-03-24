@@ -1,0 +1,30 @@
+@media screen and (max-width: 375px) {
+    .swipe-card {
+        justify-content:start !important;
+    }
+    .swipe-card__cards {
+        height: 280px !important;
+    }
+    /* .swipe-card__container {
+        height: 300px !important;
+    } */
+    /* .swipe-card__children{
+        margin-top: 100px !important;
+    } */
+}
+
+@media screen and (min-width: 375px) {
+    .swipe-card {
+        justify-content:start !important;
+    }
+    .swipe-card__cards {
+        height: 350px !important;
+        width: 300px !important;
+    }
+    /* .swipe-card__container {
+        height: 300px !important;
+    } */
+    /* .swipe-card__children{
+        margin-top: 100px !important;
+    } */
+}
