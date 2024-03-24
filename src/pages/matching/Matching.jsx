@@ -40,9 +40,9 @@ const Matching = () => {
             style={!isMobileOrDesktop ? { ...buttonMobileStyles, flexDirection: 'column' } : buttonDesktopStyles}
             className='matching-button'
         >
-            <div style={{ textAlign: 'center' }}>
+            {/* <div style={{ textAlign: 'center' }}>
                 <Button type='primary' onClick={navigateTo}>Question Allocation</Button>
-            </div>
+            </div> */}
             <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
                 <Select
                     placeholder="Select Industry"

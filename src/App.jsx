@@ -11,6 +11,8 @@ import Pitching from "./pages/pitching/Pitching"
 import Profile from "./pages/profile/Profile"
 import AppLayout from "./components/AppLayout"
 import Home from "./pages/auth/Home"
+import QuestionAllocation from "./pages/matching/QuestionAllocation"
+import QuestionAnswer from "./pages/matching/QuestionAnswer"
 function App() {
   return (
     <>
@@ -21,6 +23,8 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/conversation" element={<Conversation />} />
           <Route path="/matching" element={<Matching />} />
+          <Route path="/matching/answer-question" element={<QuestionAnswer />} />
+          <Route path="/matching/question-allocation" element={<QuestionAllocation />} />
           <Route path="/pitching" element={<Pitching />} />
           <Route path="/profile" element={<Profile />} />
         </Route>
