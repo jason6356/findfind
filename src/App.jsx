@@ -12,8 +12,6 @@ import Profile from "./pages/profile/Profile"
 import AppLayout from "./components/AppLayout"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Routes>

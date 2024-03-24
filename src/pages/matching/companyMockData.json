@@ -1,0 +1,132 @@
+[
+    { 
+        "id": "88552078", 
+        "meta": { "apk": "some-apk-a.apk" }, 
+        "src": "src/assets/company-sample-logo/airbnb.png",
+        "companyName": "Airbnb",
+        "jobTitle": "Software Engineer",
+        "jobLocation": "Cheras, Kuala Lumpur",
+        "salaryRange": "RM3000 - RM5000",
+        "industry": "Computer Software"
+    },
+    { 
+        "id": "fc7e0bd4", 
+        "meta": { "apk": "some-apk-b.apk" }, 
+        "src": "src/assets/company-sample-logo/ant-group.jpg",
+        "companyName": "Ant Group",
+        "jobTitle": "Software Engineer",
+        "jobLocation": " Cyberjaya, Selangor",
+        "salaryRange": "RM4000 - RM6000",
+        "industry": "Computer Software"
+    },
+    { 
+        "id": "da9a7067", 
+        "meta": { "apk": "some-apk-c.apk" }, 
+        "src": "src/assets/company-sample-logo/tiktok.png",
+        "companyName": "Tik Tok",
+        "jobTitle": "Advertising Manager",
+        "jobLocation": "Petaling Jaya, Selangor",
+        "salaryRange": "RM3500 - RM5500",
+        "industry": "Advertising"
+    },
+    { 
+        "id": "e3f4a9b2", 
+        "meta": { "apk": "some-apk-d.apk" }, 
+        "src": "src/assets/company-sample-logo/deloitte.png",
+        "companyName": "Deloitte",
+        "jobTitle": "Accountant",
+        "jobLocation": "Kuala Lumpur",
+        "salaryRange": "RM2500 - RM4500",
+        "industry": "Audit"
+    },
+    { 
+        "id": "1b2c3d4e", 
+        "meta": { "apk": "some-apk-e.apk" }, 
+        "src": "src/assets/company-sample-logo/google.png",
+        "companyName": "Google",
+        "jobTitle": "Software Manager",
+        "jobLocation": "Penang",
+        "salaryRange": "RM4000 - RM6000",
+        "industry": "Computer Software"
+    },
+    { 
+        "id": "5f6g7h8i", 
+        "meta": { "apk": "some-apk-f.apk" }, 
+        "src": "src/assets/company-sample-logo/micron.png",
+        "companyName": "Mircon",
+        "jobTitle": "Engineer",
+        "jobLocation": "Penang",
+        "salaryRange": "RM4500 - RM5000",
+        "industry": "Semiconductor"
+    },
+    { 
+        "id": "9j0k1l2m", 
+        "meta": { "apk": "some-apk-g.apk" }, 
+        "src": "src/assets/company-sample-logo/iFast.png",
+        "companyName": "iFast",
+        "jobTitle": "Software Engineer",
+        "jobLocation": "Kuala Lumpur",
+        "salaryRange": "RM4500 - RM5000",
+        "industry": "Financial Services"
+    },
+    { 
+        "id": "3n4o5p6q", 
+        "meta": { "apk": "some-apk-h.apk" }, 
+        "src": "src/assets/company-sample-logo/intel.png",
+        "companyName": "Intel",
+        "jobTitle": "Mechanical Engineer",
+        "jobLocation": "Penang",
+        "salaryRange": "RM4500 - RM5000",
+        "industry": "Semiconductor"
+    },
+    { 
+        "id": "7r8s9t0u", 
+        "meta": { "apk": "some-apk-i.apk" }, 
+        "src": "src/assets/company-sample-logo/maybank.png",
+        "companyName": "Maybank",
+        "jobTitle": "Director",
+        "jobLocation": "Serembam, Negeri Sembilan",
+        "salaryRange": "RM6000 - RM8000",
+        "industry": "Banking"
+    },
+    { 
+        "id": "1v2w3x4y", 
+        "meta": { "apk": "some-apk-j.apk" }, 
+        "src": "src/assets/company-sample-logo/microsoft.png",
+        "companyName": "Mircosoft",
+        "jobTitle": "Software Developer",
+        "jobLocation":  "Cyberjaya, Selangor",
+        "salaryRange": "RM4000 - RM6000",
+        "industry": "Computer Software"
+    },
+    { 
+        "id": "5z6a7b8c", 
+        "meta": { "apk": "some-apk-k.apk" }, 
+        "src": "src/assets/company-sample-logo/money-lion.png",
+        "companyName": "Money Lion",
+        "jobTitle": "Software Tester",
+        "jobLocation": "Kuala Lumpur",
+        "salaryRange": "RM4500 - RM5000",
+        "industry": "Financial Services"
+    },
+    { 
+        "id": "9d0e1f2g", 
+        "meta": { "apk": "some-apk-l.apk" }, 
+        "src": "src/assets/company-sample-logo/shopee.png",
+        "companyName": "Shopee",
+        "jobTitle": "Manager",
+        "jobLocation": "Kuala Lumpur",
+        "salaryRange": "RM4500 - RM5000",
+        "industry": "E-commerce"
+    },
+    { 
+        "id": "3h4i5j6k", 
+        "meta": { "apk": "some-apk-m.apk" }, 
+        "src": "src/assets/company-sample-logo/touchngo.png",
+        "companyName": "Touch N Go",
+        "jobTitle": "Software Engineer",
+        "jobLocation": "Setapak, Kuala Lumpur",
+        "salaryRange": "RM4500 - RM5000",
+        "industry": "Financial Services"
+    }
+]
