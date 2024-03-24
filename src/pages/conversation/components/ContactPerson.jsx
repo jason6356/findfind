@@ -16,7 +16,7 @@ function ContactPerson() {
       <div
         style={{
           display: "flex",
-          width: "50%",
+          width: "80%",
           height: "50px",
           alignItems: "center",
         }}
@@ -25,6 +25,7 @@ function ContactPerson() {
           src="../../../public/profile.jpg"
           style={{
             width: "20%",
+            height: "90%",
           }}
         />
         <span
@@ -34,12 +35,12 @@ function ContactPerson() {
             marginLeft: "5px",
           }}
         >
-          John Cena
+          Alipay Sdn Bhd
         </span>
       </div>
       <div
         style={{
-          width: "50%",
+          width: "20%",
           height: "50px",
           textAlign: "right",
           lineHeight: "50px",
