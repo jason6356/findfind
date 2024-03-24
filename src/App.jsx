@@ -10,7 +10,7 @@ import Matching from "./pages/matching/Matching"
 import Pitching from "./pages/pitching/Pitching"
 import Profile from "./pages/profile/Profile"
 import AppLayout from "./components/AppLayout"
-
+import Home from "./pages/auth/Home"
 function App() {
   return (
     <>
@@ -24,7 +24,7 @@ function App() {
           <Route path="/pitching" element={<Pitching />} />
           <Route path="/profile" element={<Profile />} />
         </Route>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </>
   )
