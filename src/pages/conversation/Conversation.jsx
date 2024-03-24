@@ -1,12 +1,33 @@
-import React from 'react';
+import React from "react"
+import { RightOutlined } from "@ant-design/icons"
+import ContactPerson from "./components/ContactPerson"
 
 function Conversation() {
-    return (
-        <div>
-            <h1>Hello, World!</h1>
-            <p>This is a simple page.</p>
-        </div>
-    );
+  return (
+    <div>
+      <h1 className="">Contact List</h1>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <ContactPerson />
+        <ContactPerson />
+        <ContactPerson />
+        <ContactPerson />
+        <ContactPerson />
+        <ContactPerson />
+        <ContactPerson />
+        <ContactPerson />
+        <ContactPerson />
+        <ContactPerson />
+        <ContactPerson />
+        <ContactPerson />
+        <ContactPerson />
+      </div>
+    </div>
+  )
 }
 
-export default Conversation;
+export default Conversation
